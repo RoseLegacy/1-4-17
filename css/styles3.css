@@ -1,0 +1,61 @@
+body {
+  background-color: #330025;
+}
+
+.sidebar {
+  color: black;
+  background-color: white;
+  width: 1600px;
+  height: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  word-wrap: normal; 
+}
+
+img.band-photo {
+  height: 30%;
+  width:  30%;
+  float: left;
+}
+
+p {
+  color: white;
+}
+
+ul {
+  color: white;
+}
+
+.cities {
+  font-weight: bolder;
+  color: #ff3399;
+}
+
+.about {
+  color: #ff3399;
+  text-align: center;
+}
+
+.shows {
+  color: #ff3399;
+}
+
+img.album-photo {
+  float: right;
+}
+
+.column {
+  width: 750px;
+  float: right;
+  padding-bottom: 175px;
+}
+
+.column2 {
+  width: 500px;
+  float: left;
+  padding-left: 200px;
+}
+
+.band {
+  float: left;
+}
