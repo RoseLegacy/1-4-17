@@ -1,0 +1,16 @@
+h2.intro {
+  font-style: italic;
+  color: gray;
+}
+
+p.intro {
+font-size: 35px;
+}
+
+img.intro {
+  transition: transform .8s ease-in-out;
+}
+
+img:hover {
+  transform:  rotate(180deg);
+}
