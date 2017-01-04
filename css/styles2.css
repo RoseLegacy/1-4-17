@@ -3,7 +3,7 @@ h2.intro {
   color: gray;
 }
 
-p.intro {
+.intro {
 font-size: 35px;
 }
 
@@ -13,4 +13,18 @@ img.intro {
 
 img:hover {
   transform:  rotate(180deg);
+}
+
+.about {
+  font-family: papyrus;
+  color: skyblue;
+}
+
+.text {
+font-size: 25px;
+color: red;
+}
+
+.background {
+  background-color: lavender;
 }
