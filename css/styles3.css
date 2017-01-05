@@ -1,21 +1,28 @@
 body {
   background-color: #330025;
+  margin: 5px;
 }
 
+nav{
+text-align:center;
+}
 .sidebar {
+  font-family: 'Anton', sans-serif;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+}
+
+.sidebar a{
   color: black;
-  background-color: white;
-  width: 1600px;
-  height: 10px;
-  padding: 10px;
-  border-radius: 20px;
-  word-wrap: normal; 
+  font-size: 20px;
 }
 
 img.band-photo {
   height: 30%;
-  width:  30%;
+  width:  50%;
   float: left;
+  border: 2px solid #ff3399;
+  padding: 5px;
 }
 
 p {
@@ -32,30 +39,52 @@ ul {
 }
 
 .about {
+  font-family: 'Anton', sans-serif;
   color: #ff3399;
-  text-align: center;
+  float: left;
+  padding-left: 40px;
 }
 
 .shows {
+  font-family: 'Anton', sans-serif;
   color: #ff3399;
 }
 
 img.album-photo {
   float: right;
+  border: 2px solid #ff3399;
+  padding: 5px;
 }
 
 .column {
-  width: 750px;
-  float: right;
-  padding-bottom: 175px;
+  font-family: 'Exo 2', sans-serif;
+  width: 100%;
+  float: left;
+}
+
+.text {
+  width: 400px;
+  float: left;
+  padding-left: 40px;
 }
 
 .column2 {
-  width: 500px;
-  float: left;
-  padding-left: 200px;
+  font-family: 'Exo 2', sans-serif;
+  width:100%;
+  float:right;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
 }
 
 .band {
   float: left;
+}
+
+@media screen and (max-height:1000px) and (max-width:1000px) {
+  body {
+    font-family: 'Exo 2', sans-serif;
+    background: pink;
+    text-align: center;
+  }
 }
